@@ -19,11 +19,11 @@ The API you should support:
 A micro-service responsible for all the business logic of the application.
 <br/>Responsible for saving entities on DB of your choice.
 
-### Bonus 
-Use Dockers for servers.
+### Infra 
+Use Dockers for micro-servers.
 
-### Bonus for full stack developers
-Simple UI in Angular for creation of new projects and adding of users to it.
+### Bonus
+Simple UI in Angular/Any other for creation of new projects and adding of users to it.
 
 ### Last thing
 ##### What we anticipate to see in the  app:
