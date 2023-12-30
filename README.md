@@ -1,26 +1,31 @@
-**Home Assessment Task for Java Junior Developer**
+**Home Assessment Task for FullStack Team Leader**
 
 **Task Overview:**
-Your task is to develop a Java application that manages project entities through a RESTful API. Additionally, you are required to containerize the application using Docker.
+Your task is to develop simple web application that manages project entities. Additionally, you are required to containerize the application parts using Docker.
 
 **Requirements:**
 
-1. **Java Application:**
+1. **Frontend Part:**
+   - Create UI application to interact with user. Use Angular as a framework to build on.
+   - UI interface will include
+      - upon load, fetch existing projects and list them them in the table. The table will include next columns: id, name, description, start date, and end date of the project.
+      - functionality to update name and/or description of existing project.
+      - functionality to create a new project. New project will have name, description and start date.
+      - functionality to delete specific project.
+
+2. **Backend Part:**
    - Create a Java application using a suitable framework (e.g., Spring Boot) to implement a RESTful API.
    - The application should include CRUD operations for managing projects.
    - A project should have at least a name, description, start date, and end date.
-
-2. **Database:**
-   - Use a relational database (e.g., MySQL, PostgreSQL) to store project data, or in-memory database (e.g., H2). Completely up to you.
-   - Ensure that the application can perform basic CRUD operations on the projects.
-
-3. **RESTful API Endpoints:**
    - Implement the following RESTful API endpoints:
       - `GET /projects`: Retrieve a list of all projects.
       - `GET /projects/{id}`: Retrieve details of a specific project.
       - `POST /projects`: Create a new project.
       - `PUT /projects/{id}`: Update an existing project.
       - `DELETE /projects/{id}`: Delete an existing project.
+
+3. **Database:**
+   - Use a relational database (e.g., MySQL, PostgreSQL) to store project data, or in-memory database (e.g., H2). Completely up to you.
 
 4. **Docker Container:**
    - Dockerize your Java application.
@@ -48,6 +53,7 @@ Your task is to develop a Java application that manages project entities through
    - The REST API should follow best practices.
    - Proper HTTP status codes and error handling should be implemented.
    - The application should handle errors gracefully.
+   - UI should have minimal interface, but nice looking. Apply minimal CSS in order to grant minimal pretty look-and-feel.
 
 3. **Docker Containerization:**
    - The Docker container should be successfully built.
